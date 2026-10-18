@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. In the Lab, the Configuration Policy was tested to see if it was in Compliance. After five failed Logon attempts, the Agent's was still allowed access and authorization to Logon.  The Lab said do 10 attempts to Logon, and that's when a red flag was raised and confirmed that the Lockout Policy must be Configured. The Account Lockout policy was updated on the Client-1 server, so when the Account Lockout Policy threshold has exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
+The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. In the Lab, the Configuration Policy was tested to see if it was in Compliance. After five failed Logon attempts, the Agent's was still allowed access and authorization to Logon.  The Lab said do 10 failed attempts to Logon, and that's when a red flag was raised and confirmed that the Lockout Policy must be Configured. The Account Lockout policy was updated on the Client-1 server, so when the Account Lockout Policy threshold has exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
 </p>
 <br />
 Acct
