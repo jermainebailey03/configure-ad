@@ -21,10 +21,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 Configure Admin/Users Access
+- Step 2 Account Lockout Policy
+- Step 3 Group Policy
+- Step 4 Reset Passwords
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. The Acct. Lockout policy was updated on the Client-1 server, so when the Account Lockout Policy threshold has exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
+The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. In the Lab, the Configuration Policy was tested to see if it was in Compliance. After five failed Logon attempts, the Agent's was still allowed access and authorization to Logon.  The Lab said do 10 attempts to Logon, and that's when a red flag was raised and confirmed that the Lockout Policy must be Configured. The Account Lockout policy was updated on the Client-1 server, so when the Account Lockout Policy threshold has exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
 </p>
 <br />
 Acct
@@ -42,7 +42,7 @@ Acct
 
 </p>
 <p>
-Now a failed Logon has to wait 5 min. before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 min. A script was ran in Power Shell Admin command line to force the Policy to Refresh. If the Policy was not forced, the system would have took 90 min. to update.
+Now a failed Logon has to wait 5 minutes before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 minutes. A script was ran in Power Shell Admin command line to force the Policy to Refresh. If the Policy was not forced, the system would have took 90 minutes to update.
 
 </p>
 <br />
@@ -52,6 +52,6 @@ Now a failed Logon has to wait 5 min. before user get a second chance to Login. 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This Lab is showing how to Reset or Configure an Agent's Password within the Group Policy settings. The Agent's name was located out of a thousand users within the Orginazation. In the settings Tab, an Agent's Account can be Renamed, Deleted, Added to a Group, or have the Account disabled.  
 </p>
 <br />
