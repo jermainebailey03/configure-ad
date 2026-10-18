@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. The Acct. Lockout policy was updated on the Client-1 server, so when the Lockout threshold is exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
+The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. The Acct. Lockout policy was updated on the Client-1 server, so when the Account Lockout Policy threshold has exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
 </p>
 <br />
 Acct
@@ -42,7 +42,8 @@ Acct
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now a failed Logon has to wait 5 min. before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 min. A script was ran in Power Shell Admin command line to force the Policy to Refresh. If the Policy was not forced, the system would have took 90 min. to update.
+
 </p>
 <br />
 
