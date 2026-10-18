@@ -33,10 +33,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The Account Lockout Policy was not automatically installed in Active Directory, so Group Policy had to be used to Configure it. The Acct. Lockout policy was updated on the Client-1 server, so when the Lockout threshold is exceeded the amount of failed Logon attempts, that will trigger an Account Lockout.
 </p>
 <br />
-
+Acct
 <p>
 <img width="239" height="299" alt="Screenshot_14-10-2026_202840_coursecareers com" src="https://github.com/user-attachments/assets/67fe2e2e-dd4f-4374-8f7f-6a113fe64e2b" />
 
