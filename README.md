@@ -42,7 +42,7 @@ Acct
 
 </p>
 <p>
-All Configurations has been installed for Agents . Now a failed Logon has to wait 5 minutes before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 minutes. A script was ran in Power Shell Admin command line to force the Policy to Refresh. If the Policy was not forced, the system would have took 90 minutes to update.
+All Configurations has been installed for Agents . Now a failed Logon has to wait 5 minutes before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 minutes. A script was ran in Power Shell Admin command line to force the Policy to Refresh quickly. If the Policy was not forced, the system would have took 90 minutes to update.
 
 </p>
 <br />
@@ -52,6 +52,6 @@ All Configurations has been installed for Agents . Now a failed Logon has to wai
 
 </p>
 <p>
-This Lab is showing how to Reset or Configure an Agent's Password within the Group Policy settings. The Agent's name was located out of a thousand users within the Orginazation. In the settings Tab, an Agent's Account can be Renamed, Deleted, Added to a Group, or have the Account disabled.  
+This Lab is showing how to Reset or Configure an Agent's Password within the Group Policy settings. The Agent's name was located out of a thousand users within the Organization. In the settings Tab, an Agent's Account can be Renamed, Deleted, Added to a Group, or have the Account disabled. In this case a Password updated was the only Configuration that had to be Implemented. 
 </p>
 <br />
