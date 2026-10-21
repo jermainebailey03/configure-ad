@@ -42,7 +42,7 @@ Acct
 
 </p>
 <p>
-All Configurations has been installed for Agents . Now a failed Logon has to wait 5 minutes before user get a second chance to Login. After five invalid Logon attempts the Account will be locked out for 30 minutes. A script was ran in Power Shell Admin command line to force the Policy to Refresh quickly. If the Policy was not forced, the system would have took 90 minutes to update.
+All Configurations has been installed for Agents . Now a failed Logon has to wait 5 minutes before user will be allowed a second chance to Login. After five invalid Logon attempts, the Account will be locked out for 30 minutes. A script was ran in Power Shell Admin command line to force the Policy to Refresh quickly. If the Policy was not forced, the system would have took 90 minutes to update.
 
 </p>
 <br />
