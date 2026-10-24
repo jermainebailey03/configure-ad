@@ -52,6 +52,6 @@ All Configurations has been installed for Agents . Now a failed Logon has to wai
 
 </p>
 <p>
-This Lab is showing how to Reset or Configure an Agent's Password within the Group Policy settings. The Agent's name was located out of a thousand users within the Organization. In the settings Tab, an Agent's Account can be Renamed, Deleted, Added to a Group, or have the Account disabled. In this case a Password updated was the only Configuration that had to be Implemented. 
+This Lab is showing how to Reset or Configure an Agent's Password within the Group Policy settings. The Agent's name was located out of a thousand users within the Organization. In the settings Tab, an Agent's Account can be Renamed, Deleted, Added to a Group, or have the Account disabled. In this case a Password updated was the only Configuration that had to be Implemented so that's  what was implemented and updated. 
 </p>
 <br />
